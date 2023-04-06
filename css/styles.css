@@ -1,0 +1,80 @@
+/* setting box model to be in aspect ratio */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-family: "Outfit", sans-serif;
+     font-size: 1.3rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+p {
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    opacity: 60%;
+    line-height: 1;
+    padding: .5rem 0;
+}
+
+/* picture {
+    background-image: url(/images/image-qr-code.png);
+    width: 90%;
+} */
+
+/* parent-container */
+.main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 300px;
+    /* height: 100%; */
+    aspect-ratio: 4 / 2;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 12px;
+    padding: 1rem;
+}
+
+/* main -pic */
+
+.main-pic img {
+    /* background-image: url("/images/image-qr-code.png"); */
+    width: 270px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 12px;
+    /* height: 150%; */
+}
+
+/* text div */
+
+.main-text {
+    padding: 0.5rem;
+    text-align: center;
+}
+
+/* For mobile devices */
+
+@media screen and (max-width: 720px) {
+    body {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .main {
+        width: 300px;
+        /* height: 900px; */
+        aspect-ratio: 1 / 1;
+    }
+}
