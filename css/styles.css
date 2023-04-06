@@ -73,8 +73,14 @@ p {
     }
 
     .main {
-        width: 300px;
-        /* height: 900px; */
-        aspect-ratio: 1 / 1;
+        width: 350px;
+        height: 650px;
+    }
+
+    .main-pic img {
+        width: 320px;
+        aspect-ratio: 1 /1;
+        object-fit: cover;
+        border-radius: 12px;
     }
 }
