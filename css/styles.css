@@ -68,7 +68,7 @@ p {
 @media screen and (max-width: 720px) {
     body {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         flex-wrap: wrap;
     }
 
@@ -85,10 +85,10 @@ p {
     }
     
     .main-pic {
-        width: 320px;
+/*         width: 320px; */
         aspect-ratio: 2 /1;
-        object-fit: cover;
-        border-radius: 12px;
+/*         object-fit: cover;
+        border-radius: 12px; */
     }
     
 /*  New update for mobile view    */
