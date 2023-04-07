@@ -66,16 +66,16 @@ p {
 /* For mobile devices */
 
 @media screen and (max-width: 720px) {
-/*     body {
+    body {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-    } */
+    }
 
-/*     .main {
+    .main {
         width: 350px;
         height: 650px;
-    } */
+    }
 
     .main-pic img {
         width: 320px;
@@ -92,7 +92,7 @@ p {
     }
     
 /*  New update for mobile view    */
-     .main {
+/*      .main {
         width: 350px;
         height: 650px;
         margin: 10px auto;
@@ -101,5 +101,5 @@ p {
     body {
         display: block;
         text-align: center;
-    }
+    } */
 }
