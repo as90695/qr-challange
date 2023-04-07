@@ -66,21 +66,40 @@ p {
 /* For mobile devices */
 
 @media screen and (max-width: 720px) {
-    body {
+/*     body {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-    }
+    } */
 
-    .main {
+/*     .main {
         width: 350px;
         height: 650px;
-    }
+    } */
 
     .main-pic img {
         width: 320px;
         aspect-ratio: 1 /1;
         object-fit: cover;
         border-radius: 12px;
+    }
+    
+    .main-pic {
+        width: 320px;
+        aspect-ratio: 2 /1;
+        object-fit: cover;
+        border-radius: 12px;
+    }
+    
+/*  New update for mobile view    */
+     .main {
+        width: 350px;
+        height: 650px;
+        margin: 10px auto;
+    }
+    
+    body {
+        display: block;
+        text-align: center;
     }
 }
